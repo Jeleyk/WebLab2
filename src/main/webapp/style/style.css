@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: monospace;
+}
+
+#form {
+    border: 2px solid black;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    margin-right: 100px;
+}
+
+input, select {
+    margin-top: 6px;
+}
+
+table {
+    width: 100%;
+}
+
+.hover {
+    background: yellowgreen;
+}
+
+#data {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a::after {
+    content: "→";
+}
+
+.header {
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    width: 40%;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(50, 50, 50, 0.14);
+}
+
+input[type="submit"]:active {
+    background-color: rgba(50, 50, 50, 0.4);
+}
+
+#error {
+    margin-top: 6px;
+    color: red;
+}
